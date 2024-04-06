@@ -1,5 +1,5 @@
 //
-//  Reddit.swift
+//  Post.swift
 //  The Grint Test
 //
 //  Created by Pedro Toro on 4/3/24.
@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Reddit: Decodable {
+struct Post: Codable {
+    let id = UUID()
     let title: String
     let author: String
     let createdAt: Double
