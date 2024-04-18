@@ -28,7 +28,7 @@ extension RedditNewsViewModel {
     var isReachable: Bool {
         return NetworkReachabilityManager()?.isReachable ?? false
     }
-    
+        
     func getToken() {
         let url = "https://www.reddit.com/api/v1/access_token"
         let oAuthUsername = "vUc7qh_32phto_WBe9JOwQ"

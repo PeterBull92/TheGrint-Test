@@ -140,11 +140,11 @@
 		C82A6BFB2BC0DF5B006D4B95 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				C82A6C002BC0DF5B006D4B95 /* Reddit.swift */,
+				C82A6BFF2BC0DF5B006D4B95 /* Listing.swift */,
 				C82A6BFC2BC0DF5B006D4B95 /* Children.swift */,
 				C82A6BFD2BC0DF5B006D4B95 /* Post.swift */,
 				C82A6BFE2BC0DF5B006D4B95 /* AuthResponse.swift */,
-				C82A6BFF2BC0DF5B006D4B95 /* Listing.swift */,
-				C82A6C002BC0DF5B006D4B95 /* Reddit.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";

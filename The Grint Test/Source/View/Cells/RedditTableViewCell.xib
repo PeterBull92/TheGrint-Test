@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -68,9 +67,9 @@
                     <view contentMode="scaleToFill" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="tku-SD-Zcr" userLabel="Total Comments view">
                         <rect key="frame" x="20" y="141.66666666666666" width="70" height="30.333333333333343"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3Oa-24-ijg">
-                                <rect key="frame" x="5" y="4.6666666666666838" width="25" height="22"/>
-                                <color key="tintColor" systemColor="systemRedColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text.bubble.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3Oa-24-ijg">
+                                <rect key="frame" x="5" y="4.0000000000000213" width="25" height="24"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="353-QW-g9Z"/>
                                     <constraint firstAttribute="width" secondItem="3Oa-24-ijg" secondAttribute="height" id="6tL-U9-EFC"/>
@@ -124,16 +123,13 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="heart.fill" catalog="system" width="128" height="107"/>
         <image name="pencil.and.outline" catalog="system" width="123" height="128"/>
+        <image name="text.bubble.fill" catalog="system" width="128" height="110"/>
         <namedColor name="Dark Gray">
             <color red="0.49803921568627452" green="0.55294117647058827" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Gray">
             <color red="0.62745098039215685" green="0.66666666666666663" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>

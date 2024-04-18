@@ -19,6 +19,11 @@ class DetailViewController: UIViewController {
     
     var post: Post!
     
+    
+    @IBOutlet weak var imageWidthConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var imageHeightConstraint: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSubviews()
